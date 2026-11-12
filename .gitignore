@@ -1,0 +1,59 @@
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IDEs
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+# Keep .vscode settings if you want to share project configuration.
+# Uncomment to ignore the entire folder:
+# .vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.widget_preview/
+
+# Android build artifacts
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+
+# Generated files
+app.*.symbols
+app.*.map.json
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Firebase credentials (if applicable)
+google-services.json
+GoogleService-Info.plist
+
+# Operating system
+Thumbs.db
+Desktop.ini
